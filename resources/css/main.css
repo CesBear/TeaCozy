@@ -37,6 +37,7 @@ nav span {
 
 a {
     color: seashell;
+    font-family: "Helvetica", sans-serif;
 }
 
 a:-webkit-any-link {
@@ -69,10 +70,6 @@ a:-webkit-any-link {
     width: 1000px;
     margin: auto;
     padding-top: 70px;
-}
-
-div {
-    display: block;
 }
 
 h2,
