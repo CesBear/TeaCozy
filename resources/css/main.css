@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Helvetica", sans-serif;
+    font-family: 'Great Vibes', Helvetica, sans-serif;
     color: seashell;
     background-color: black;
     font-size: 22px;
@@ -55,11 +55,13 @@ a:hover {
 #mission {
     background-image: url("../images/img-mission-background.jpg");
     height: 700px;
+    filter: blur(3px);
+    background-size: cover;
+    overflow: hidden;
 }
 
-#mission .content {
+.content {
     margin: auto;
-    background-color: black;
     width: 100%;
 }
 
@@ -78,12 +80,13 @@ h4 {
 }
 h2 {
 
-    font-size: 1.5em;
+    font-size: 2.0em;
     -webkit-margin-before: 0.83em;
     -webkit-margin-after: 0.83em;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     font-weight: bold;
+
 }
 
 h3 {
@@ -146,6 +149,7 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: "Helvetica", sans-serif;
 }
 
 #locations .flex-container {
